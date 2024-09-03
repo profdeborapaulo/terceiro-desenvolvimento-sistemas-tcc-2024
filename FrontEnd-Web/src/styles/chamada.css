@@ -1,0 +1,103 @@
+.container-chama {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #e0f7ff;
+    border-radius: 30px;
+    width: 900px;
+    margin: auto;
+}
+
+.form-chama {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+}
+
+.title-chama {
+    text-align: center;
+    color: #008080;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.table-chama {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+.table-chama thead th {
+    background-color: #008080;
+    color: white;
+    font-size: 16px;
+    padding: 15px 20px;
+    text-align: left;
+}
+
+.table-chama tbody td {
+    padding: 15px 10px;
+   
+    text-align: left;
+}
+.table-chama tbody tr:nth-child(even) {
+    background-color: #ececec;
+}
+
+.table-chama thead th:first-child {
+    border-top-left-radius: 15px;
+}
+
+.table-chama thead th:last-child {
+    border-top-right-radius: 15px;
+}
+
+.table-chama tbody td:last-child {
+    border-bottom-right-radius: 15px;
+}
+
+.table-chama tbody td:first-child {
+    border-bottom-left-radius: 15px;
+}
+
+.table-chama tbody tr:hover {
+    background-color: #e0f7ff;
+}
+
+.table-chama tbody td input[type="checkbox"] {
+    width: 90px;
+    height: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container-chama {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .table-chama thead, .table-chama tbody {
+        font-size: 14px;
+    }
+}
+
+.submit-button-chama {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.submit-button-chama:hover {
+    background-color: #005757;
+}
