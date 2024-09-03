@@ -1,0 +1,211 @@
+.container-Admin {
+    display: flex;
+    height: 90vh;
+    width: 101.2%;
+}
+
+.back-button-Admin {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.sidebar-Admin {
+    width: 250px;
+    background-color: #e3f0f5;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #007f7f;
+    margin-bottom: 30px;
+}
+
+.voltar {
+    background-color: #087E8B;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.voltar:hover {
+    background-color: #076a76;
+}
+
+.usuario-list-Admin {
+    list-style-type: none;
+    padding: 0;
+}
+
+.usuario-list-Admin li.active {
+    font-weight: bold;
+    color: #004d4d;
+}
+
+.usuario-list-Admin li {
+    font-size: 18px;
+    color: #007f7f;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.usuario-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.form-container-Admin {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #2b9c9c;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.form-container-Admin p {
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.form-container-Admin h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.form-Admin {
+    background-color: #e3f0f5;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form-nome-Admin {
+    margin-bottom: 30px;
+}
+
+.form-nome-Admin input {
+    width: 600px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: #C5D7EF;
+}
+
+.form-nome-Admin label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-tel-Admin {
+    margin-bottom: 30px;
+}
+
+.form-tel-Admin label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-tel-Admin input, .form-email-Admin input {
+    width: 270px;
+    margin-right: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: #C5D7EF;
+}
+
+.form-email-Admin {
+    margin-bottom: 30px;
+}
+
+.form-email-Admin label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-nasc-Admin, .form-rg-Admin, .form-cpf-Admin {
+    margin-bottom: 30px;
+}
+
+.form-nasc-Admin label, .form-rg-Admin label, .form-cpf-Admin label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-senha-Admin {
+    margin-bottom: 30px;
+}
+
+.form-senha-Admin input {
+    width: 270px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: #C5D7EF;
+}
+
+.form-senha-Admin label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-row-Admin {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.form-nasc-Admin, .form-rg-Admin, .form-cpf-Admin {
+    flex: 1;
+    margin-bottom: 1px;
+
+}
+
+.form-nasc-Admin input, .form-rg-Admin input, .form-cpf-Admin input {
+    width: 190px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: #C5D7EF;
+}
+
+.senha-requisitos-Admin p {
+    font-size: 14px;
+    color: #007f7f;
+    margin-bottom: 10px;
+}
+
+.btn-confirmar-Admin {
+    background-color: #087E8B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+}
+
+.btn-confirmar-Admin:hover {
+    background-color: #076a76;
+}

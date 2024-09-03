@@ -1,0 +1,138 @@
+.dashboard-profe {
+  font-family: 'Arial', sans-serif;
+  background-color: #ebf4ff;
+  padding: 20px;
+  border-radius: 10px
+}
+
+.header-profe {
+  text-align: right;
+  color: #fff;
+  background: linear-gradient(135deg, #16BCBB, #087E8B);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.header-profe h1 {
+  margin: 0;
+}
+
+.left-section-profe {
+  width: 65%;
+}
+
+.main-section-profe {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.top-section-profe {
+  margin-bottom: 20px;
+}
+
+.bottom-section-profe {
+  background-color: #fff;
+  border: 2px solid #087E8B;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.bottom-section-profe h2 {
+  font-size: 16px;
+  color: #333;
+}
+
+.subject-profe {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.right-section-profe {
+  width: 30%;
+}
+
+.stat-box-profe {
+  background-color: #fff;
+  border: 2px solid #087E8B;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 8px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.stat-number-profe {
+  font-size: 48px;
+  color: #000;
+}
+
+.stat-box-profe p {
+  font-size: 20px;
+  color: #000000;
+}
+
+.stat-box-profe h2 {
+  font-size: 16px;
+  color: #333;
+}
+
+.stat-box-profe:hover, .bottom-section-profe:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-color: #16BCBB;
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #087E8B, 0 0 10px #16BCBB;
+  }
+  50% {
+    box-shadow: 0 0 20px #087E8B, 0 0 40px #16BCBB;
+  }
+  100% {
+    box-shadow: 0 0 5px #087E8B, 0 0 10px #16BCBB;
+  }
+}
+
+.buttons-section-profe {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.btn-profe {
+  background-color: #C9E2EE;
+  color: #087E8B;
+  border-color: #087E8B;
+  width: 120px;
+  height: 90px;
+  margin: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.2;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-profe:hover {
+  background-color: #16BCBB;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  color: white;
+}
